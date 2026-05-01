@@ -12,5 +12,8 @@ int main() {
     // Suma
     printf("Suma: %d\n", a + b);
 
+      // Resta
+    printf("Resta: %d\n", a - b);
+
       return 0;
 }
