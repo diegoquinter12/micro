@@ -33,5 +33,13 @@ int main() {
     else
         printf("Residuo: No se puede calcular\n");
 
+    // Comparación
+    if (a > b)
+        printf("%d es mayor que %d\n", a, b);
+    else if (a == b)
+        printf("%d es igual a %d\n", a, b);
+    else
+        printf("%d es menor que %d\n", a, b);    
+
       return 0;
 }
