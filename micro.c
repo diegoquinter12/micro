@@ -27,5 +27,11 @@ int main() {
     // Potencia
     printf("Potencia: %.2f\n", pow(a, b));
 
+    // Residuo
+    if (b != 0)
+        printf("Residuo: %d\n", a % b);
+    else
+        printf("Residuo: No se puede calcular\n");
+
       return 0;
 }
