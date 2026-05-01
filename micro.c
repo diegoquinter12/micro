@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-    int a, b;
+    int a, b, i;
      printf("Ingrese el primer numero: ");
     scanf("%d", &a);
 
@@ -40,6 +40,19 @@ int main() {
         printf("%d es igual a %d\n", a, b);
     else
         printf("%d es menor que %d\n", a, b);    
+
+    // Imprimir números desde a hasta b
+    printf("Numeros desde %d hasta %d:\n", a, b);
+
+    if (a <= b) {
+        for (i = a; i <= b; i++) {
+            printf("%d ", i);
+        }
+    } else {
+        for (i = a; i >= b; i--) {
+            printf("%d ", i);
+        }
+    }
 
       return 0;
 }
