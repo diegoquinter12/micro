@@ -24,5 +24,8 @@ int main() {
     else
         printf("Division: No se puede dividir entre 0\n");
 
+    // Potencia
+    printf("Potencia: %.2f\n", pow(a, b));
+
       return 0;
 }
