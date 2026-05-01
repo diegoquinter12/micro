@@ -15,5 +15,8 @@ int main() {
       // Resta
     printf("Resta: %d\n", a - b);
 
+    // Multiplicación
+    printf("Multiplicacion: %d\n", a * b);
+    
       return 0;
 }
