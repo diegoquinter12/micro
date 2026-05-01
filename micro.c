@@ -17,6 +17,12 @@ int main() {
 
     // Multiplicación
     printf("Multiplicacion: %d\n", a * b);
-    
+
+    // División
+    if (b != 0)
+        printf("Division: %.2f\n", (float)a / b);
+    else
+        printf("Division: No se puede dividir entre 0\n");
+
       return 0;
 }
